@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "HospitalAutomation.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HospitalAutomation.DataAccess": "1.0.0",
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HospitalAutomation.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HospitalAutomation.Business.dll": {}
+        }
+      },
+      "HospitalAutomation.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HospitalAutomation.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HospitalAutomation.DataAccess.dll": {}
+        }
+      },
+      "HospitalAutomation.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HospitalAutomation.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HospitalAutomation.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitalAutomation.Business/1.0.0": {
+      "type": "project",
+      "path": "../HospitalAutomation.Business/HospitalAutomation.Business.csproj",
+      "msbuildProject": "../HospitalAutomation.Business/HospitalAutomation.Business.csproj"
+    },
+    "HospitalAutomation.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../HospitalAutomation.DataAccess/HospitalAutomation.DataAccess.csproj",
+      "msbuildProject": "../HospitalAutomation.DataAccess/HospitalAutomation.DataAccess.csproj"
+    },
+    "HospitalAutomation.Entities/1.0.0": {
+      "type": "project",
+      "path": "../HospitalAutomation.Entities/HospitalAutomation.Entities.csproj",
+      "msbuildProject": "../HospitalAutomation.Entities/HospitalAutomation.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "HospitalAutomation.Business >= 1.0.0",
+      "HospitalAutomation.DataAccess >= 1.0.0",
+      "HospitalAutomation.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bayrak\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.FormUI\\HospitalAutomation.FormUI.csproj",
+      "projectName": "HospitalAutomation.FormUI",
+      "projectPath": "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.FormUI\\HospitalAutomation.FormUI.csproj",
+      "packagesPath": "C:\\Users\\Bayrak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.FormUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Bayrak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj": {
+              "projectPath": "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.Business\\HospitalAutomation.Business.csproj"
+            },
+            "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.DataAccess\\HospitalAutomation.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.DataAccess\\HospitalAutomation.DataAccess.csproj"
+            },
+            "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj": {
+              "projectPath": "C:\\Users\\Bayrak\\Desktop\\HospitalAutomation\\HospitalAutomation.Entities\\HospitalAutomation.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

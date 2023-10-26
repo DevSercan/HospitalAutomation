@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HospitalAutomation.FormUI/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.Business": "1.0.0",
+          "HospitalAutomation.DataAccess": "1.0.0",
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.FormUI.dll": {}
+        }
+      },
+      "HospitalAutomation.Business/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.DataAccess": "1.0.0",
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.Business.dll": {}
+        }
+      },
+      "HospitalAutomation.DataAccess/1.0.0": {
+        "dependencies": {
+          "HospitalAutomation.Entities": "1.0.0"
+        },
+        "runtime": {
+          "HospitalAutomation.DataAccess.dll": {}
+        }
+      },
+      "HospitalAutomation.Entities/1.0.0": {
+        "runtime": {
+          "HospitalAutomation.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitalAutomation.FormUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalAutomation.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
